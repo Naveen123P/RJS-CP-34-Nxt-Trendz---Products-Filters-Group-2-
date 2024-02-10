@@ -222,7 +222,7 @@ class AllProductsSection extends Component {
       case apiStatusConstant.inProgress:
         return this.renderLoader()
       default:
-        null
+        return null
     }
   }
 
